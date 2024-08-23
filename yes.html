@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A letter for you&hearts;</title>
+    <link rel="stylesheet" href="yes_style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>Dear Torin Walker,</strong>
+                        <p>
+                            Happy 1 year anniversary sweetheart&hearts; I hope this day will feel special for you.
+                            Your everything Ive ever wanted and so much more&hearts; I cant beleive that its been a 
+                            year;-; This has truely been the best year of my life&hearts; and I cant wait to continue 
+                            spending the rest of my years with you&hearts;
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
